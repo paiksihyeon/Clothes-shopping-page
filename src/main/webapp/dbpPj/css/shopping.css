@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+.navbar {
+	background-color: #ff6f61; 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-toggler-icon {
+	background-image:
+		url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.jumbotron {
+	background-color: #f8f9fa; /* Light Gray */
+	padding: 3rem 1rem; /* Padding */
+}
+
+
+.jumbotron h1 {
+	color: #333333; /* Dark Gray */
+	font-weight: bold;
+}
+
+.inform {
+	color: #333333; /* Dark Gray */
+	font-weight: bold;
+	position: absolute;
+	z-index: 1;
+	color:white;
+	top:50%;
+	left:45%;
+}
+
+.slideimg{
+	color:rgba(0,0,0,0.5);
+}
+
+.slideclass {
+	position: relative;
+}
+
+.container {
+	margin-top: 2rem; 
+	margin-bottom: 2rem; 
+}
+
+
+.form-signin-heading {
+	color: #333333; 
+	font-weight: bold;
+}
+
+.btn-success {
+	background-color: #d2b48c; /* Dark Khaki */
+	border-color: #d2b48c; /* Dark Khaki */
+	font-weight: bold;
+	height: 50px;
+}
+
+.btn-success:hover {
+	background-color: #bfa578; /* Darker Khaki */
+	border-color: #bfa578; /* Darker Khaki */
+}
+
+.display-3 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+}
+
+body {
+	font-family: "Hahmlet", serif;
+	font-optical-sizing: auto;
+	font-weight: 10;
+	font-style: normal;
+	background-color: #f5f5f5; /* 베이지색 계열의 밝은 배경 */
+}
+
+/* Jumbotron background color and text color */
+.jumbotron {
+	background-color: #f5f5f5; /* 밝은 배경 */
+	color: #333; /* 기본 텍스트 컬러 */
+}
+
+/* Container background color */
+.container {
+	padding: 20px; /* 내부 여백 */
+	border-radius: 10px; /* 모서리를 둥글게 */
+}
+
+.whitebackcontainer{
+	background-color : #fff
+}
+
+/* Navbar background color and text color */
+.navbar {
+	background-color: #f5f5f5; /* 밝은 배경 */
+	color: #333; /* 기본 텍스트 컬러 */
+}
+
+/* Navbar link color */
+.navbar-nav .nav-link {
+	color: #333; /* 기본 텍스트 컬러 */
+}
+
+/* Navbar link hover color */
+.navbar-nav .nav-link:hover {
+	color: #555; /* 호버 시 더 어두운 컬러 */
+}
+
+/* Button colors */
+.btn-primary, .btn-secondary, .btn-success, .btn-info, .btn-warning,
+	.btn-danger {
+	background-color: #c7b199; /* 주황색 */
+	border-color: #c7b199; /* 주황색 */
+}
+
+/* Button hover colors */
+.btn-primary:hover, .btn-secondary:hover, .btn-success:hover, .btn-info:hover,
+	.btn-warning:hover, .btn-danger:hover {
+	background-color: #9f8473; /* 조금 더 어두운 주황색 */
+	border-color: #9f8473; /* 조금 더 어두운 주황색 */
+}
+
+.btn {
+	font-size: 15px;
+	padding: 3px 6px;
+	margin: 2px;
+}
+
+
+/* Badge background color */
+.badge {
+	background-color: #c7b199; /* 주황색 배경 */
+}
+
+/* Badge text color */
+.badge {
+	color: #fff; /* 흰색 텍스트 */
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	padding: 0px 20px;
+}

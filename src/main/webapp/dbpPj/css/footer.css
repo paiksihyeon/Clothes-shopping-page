@@ -1,0 +1,11 @@
+footer {
+    background-color: #EBDDCC; /* 베이지 색상 */
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+p{
+	margin-bottom: 0;
+}

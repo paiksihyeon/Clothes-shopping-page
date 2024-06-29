@@ -1,0 +1,98 @@
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+.product-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.product-item {
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s;
+	box-sizing: border-box;
+}
+
+.col-md-4.product-item {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 33.333333%;
+	flex: 0 0 calc(30%);
+	max-width: calc(30%);
+}
+
+.product-item:hover {
+	transform: translateY(-5px);
+}
+
+.product-name, .product-brand, .product-category, .product-price {
+	margin-bottom: 10px;
+	font-size: 1.1em;
+}
+
+.product-image img {
+	border-radius: 10px;
+	max-width: 100%;
+	height: auto;
+}
+
+.product-actions {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.product-actions .btn {
+	width: 48%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+
+.product-actions .btn-secondary {
+	background-color: #DFD3CD;
+	border: none;
+	width: 100px;
+}
+
+.product-actions .btn-secondary:hover {
+	background-color: #C7B199;
+}
+
+.product-actions .btn-info {
+	background-color: #C7B199;
+	border: none;
+	width: 150px;
+}
+
+.product-actions .btn-info:hover {
+	background-color: #9F8473;
+}
+
+.inform-display-3 {
+	color: #9F8473;
+	font-size: 70px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+footer {
+    background-color: #EBDDCC; /* 베이지 색상 */
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}

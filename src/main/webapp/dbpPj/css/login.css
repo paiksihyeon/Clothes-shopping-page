@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+body {
+	font-family: "Hahmlet", serif;
+	background-color: #f8f9fa;
+}
+
+.container {
+	width: 100%;
+	max-width: 50px;
+	margin: 0 auto;
+	padding-top: 75px;
+}
+
+.form-signin-heading {
+	color: #9F8473;
+	font-size: 24px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.form-addProduct {
+	width: 100%;
+	max-width: 80px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group-margin{
+	margin-bottom: 45px;
+	margin-left: 15px;
+}
+
+.form-control {
+	height: 50px;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+	border-color: #80bdff;
+	outline: 0;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.btn-login, .btn-signup {
+	width: 100%;
+	padding: 15px;
+	font-size: 18px;
+	border: none;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.btn-login {
+	background-color: #dfd3cd;
+	color: #000;
+}
+
+.btn-login:hover {
+	background-color: #c7b199;
+}
+
+.btn-signup {
+	background-color: #c7b199;
+	color: #fff;
+}
+
+.btn-signup:hover {
+	background-color: #b3a18d;
+}
+
+.img-slide1 {
+	background-size: cover;
+}
+
+.form-control-box {
+	width: 100px;
+	height: 50px;
+}
+
+.form-control-box-img {
+	width: 300px;
+	height: 50px;
+}
+
+.textheight {
+	width: 100px;
+}
+
+.border_textbox{
+	border-width: 0 0 1px;
+	border-color : #dfd3cd;
+}
+
+.form-control-box-1 {
+	width: 300px;
+	height: 70px;
+}
+
+.form-control-box-3 {
+	width: 70px;
+	height: 30px;
+}
+
+.col-sm-5 {
+	width: 100px;
+}
+
+.btn-register {
+	background-color: #dfd3cd;
+	color: #000;
+	height: 30px;
+	font-size: 15px;
+	padding: 15px;
+	font-size: 15px;
+	border: none;
+	border-radius: 4px;
+}
+
+.btn-register-product {
+	background-color: #dfd3cd;
+	color: #000;
+	font-size: 15px;
+	padding: 5px 15px;
+	margin-bottom: 75px; font-size : 15px;
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+}
+
+.btn-register:hover {
+	background-color: #c7b199;
+}
+
+.btn-changeclothing {
+	background-color: #dfd3cd;
+	color: #000;
+	width: 200px;
+}
+
+.btn-changeclothing:hover {
+	background-color: #c7b199;
+}

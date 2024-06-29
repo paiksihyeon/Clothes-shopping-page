@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+.session-name {
+    color: #FFF;
+}
+
+.display-box {
+    background-color: #C7B199;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.display-3 {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #DFD3CD;
+}
+
+form {
+    display: inline;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 125px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-signin-heading {
+    color: #9F8473;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.styled-button {
+    background-color: #DFD3CD;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: Left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.form-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

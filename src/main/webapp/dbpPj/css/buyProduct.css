@@ -1,0 +1,85 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1.display-4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.product-info img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-details strong {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.product-details div {
+    font-size: 1rem;
+    color: #777777;
+}
+
+.total-info {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #dddddd;
+    text-align: right;
+}
+
+.total-info p {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #333333;
+}
+
+.inform-display-3 {
+	color: #9F8473;
+	font-size: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.total-info strong {
+    font-weight: 700;
+    color: #000000;
+}

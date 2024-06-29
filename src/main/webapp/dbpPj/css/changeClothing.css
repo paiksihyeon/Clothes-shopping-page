@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Hahmlet", serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 100%;
+    max-width: 50px;  
+    margin: 0 auto;  
+    padding-top: 75px;
+}
+
+.form-signin-heading {
+	color: #9F8473;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-addProduct{
+	width: 100%;
+	max-width: 80px;  
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.btn-login, .btn-signup {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.btn-login {
+    background-color: #dfd3cd;
+    color: #000;
+}
+
+.btn-login:hover {
+    background-color: #c7b199;
+}
+
+.btn-signup {
+    background-color: #c7b199;
+    color: #fff;
+}
+
+.btn-signup:hover {
+    background-color: #b3a18d;
+}
+
+.img-slide1 {
+	background-size: cover;
+}
+
+.form-control-box {
+    width: 100px;
+    height: 50px;   
+}
+
+.form-control-box-1{
+	width: 300px;
+    height: 70px;  
+}
+
+.form-control-box-3{
+	width: 70px;
+    height: 30px;
+}
+
+.col-sm-5{
+	 width: 100px;
+}
+
+.btn-register{
+	background-color: #dfd3cd;
+	color: #000;
+	height: 30px;
+	font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    left: 5px;
+}
+
+.btn-register:hover {
+    background-color: #c7b199;
+}
+
+.whitebackcontainer{
+	padding: 30px;
+}
+
+.product-actions .btn-info:hover {
+    background-color: #9F8473;
+
+}
+
+.product-actions .btn-secondary:hover {
+    background-color: #C7B199;
+}

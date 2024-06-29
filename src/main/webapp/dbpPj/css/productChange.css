@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Hahmlet", serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 100%;
+    max-width: 50px;  
+    margin: 0 auto;  
+    padding-top: 75px;
+}
+
+.inform-display-3 {
+    color: #9F8473;
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.product-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    flex: 1 1 calc(33.333% - 30px);
+    box-sizing: border-box;
+}
+
+.col-md-4.product-item {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 33.333333%;
+	flex: 0 0 calc(30%);
+	max-width: calc(30%);
+}
+
+
+.product-item:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 992px) {
+    .product-item {
+        flex: 1 1 calc(50% - 30px);
+    }
+}
+
+@media (max-width: 768px) {
+    .product-item {
+        flex: 1 1 calc(100% - 30px);
+        margin: 10px 0;
+    }
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-login, .btn-signup {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.btn-login {
+    background-color: #dfd3cd;
+    color: #000;
+}
+
+.btn-login:hover {
+    background-color: #c7b199;
+}
+
+.btn-signup {
+    background-color: #c7b199;
+    color: #fff;
+}
+
+.btn-signup:hover {
+    background-color: #b3a18d;
+}
+
+.btn-register {
+    background-color: #dfd3cd;
+    color: #000;
+    height: 30px;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-register:hover {
+    background-color: #c7b199;
+}
+
+.btn-changeclothing {
+    background-color: #dfd3cd;
+    color: #000;
+    width: 200px;
+    height: 40px;
+}
+
+.btn-changeclothing:hover {
+    background-color: #c7b199;
+}
+
+.product-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.product-actions .btn {
+    width: 48%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.product-actions .btn-secondary {
+    background-color: #DFD3CD;
+    border: none;
+    width: 130px;
+}
+
+.product-actions .btn-info {
+    background-color: #C7B199;
+    border: none;
+    width: 100px;
+}
+
+.product-actions .btn-info:hover {
+    background-color: #9F8473;
+
+}
+
+.product-actions .btn-secondary:hover {
+    background-color: #C7B199;
+}
+
+footer {
+    background-color: #EBDDCC; /* 베이지 색상 */
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+

@@ -1,0 +1,152 @@
+/* shoppingCart.css */
+
+/* 기본 설정 */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* 메뉴 래퍼 */
+.menu-wrapper {
+    margin-bottom: 20px;
+}
+
+/* 컨테이너 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.inform-display-3 {
+	color: #9F8473;
+	font-size: 70px;
+	margin-bottom: 20px;
+	text-align: left;
+	padding-top: 75px;
+}
+
+/* 버튼 스타일 */
+button.btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+button.btn:hover {
+    background-color: #C7B199;
+}
+
+
+button.btn-primary {
+    background-color: #9F8473;
+    border-color: #9F8473;
+}
+
+button.btn-secondary {
+    background-color:  #C7B199;
+    border-color:  #C7B199;
+}
+
+button.btn-secondary:hover {
+    background-color: #DFD3CD;
+   
+}
+
+button.btn-info{
+	background-color: #9F8473;
+    border-color: #9F8473;
+}
+
+button.btn-info:hover{
+	background-color:  #C7B199;
+    border-color:  #C7B199;
+}
+/* 경고 메시지 */
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}
+
+/* 상품 리스트 스타일 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li-1 {
+    border-bottom: 1px solid #dee2e6;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.product-info input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.product-info img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.product-details {
+    flex-grow: 1;
+}
+
+.product-details strong {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.product-details div {
+    margin-top: 5px;
+}
+
+.product-details form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.product-actions {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-actions button {
+    margin-top: 10px;
+}
+
+/* 총 가격 스타일 */
+.total-price {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* 구매 버튼 스타일 */
+form#buyForm {
+    text-align: right;
+    margin-top: 20px;
+}
+
+form#buyForm button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
