@@ -23,7 +23,6 @@
 		<div class="text-center">
 			<h3>Welcome to clothing shopping mall!</h3>
 			<%
-                // 방문자 카운트를 애플리케이션 범위에서 관리
                 ServletContext application1 = getServletContext();
                 Integer pageCount = (Integer) application1.getAttribute("pageCount");
                 if (pageCount == null) {
